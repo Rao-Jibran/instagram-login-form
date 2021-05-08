@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background-image: linear-gradient(to right, red , yellow);
+}
+.full{
+    margin: 30px 450px;
+    padding: 25px 30px;
+    background-color: whitesmoke;
+}
+.lang{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 6px;
+    display: flex;
+    color: gray;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    color: gray;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: gray;
+  }  
+  .insta{
+      text-align: center;
+      align-items: center;
+      font-family: 'Courgette', cursive;
+      font-size: 25px;
+      padding-top: 39px;
+  }
+  .main{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .main input{
+  
+      margin-top: 15px;
+      width: 280px;
+      height: 45px;
+      border: 1px solid black;
+  }
+  .main button{
+    margin-top: 20px;
+    width: 280px;
+    height: 45px;
+    background-color: #184ce6e6;
+    color: white;
+  }
+  .main button:hover{
+      color: white;
+      background-color: blue;
+      cursor: pointer;
+  }
+  .forgot{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 12px;
+  }
+  .forgot h1{
+    font-size: 13.5px;
+    color: rgba(0, 0, 0, 0.692)
+  }
+  .forgot button{
+      border: none;
+      outline: none;
+  }
+  .forgot button:hover{
+      text-decoration: underline;
+  }
+  .line{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+  }
+  .line hr{
+    border-top: 1px solid black;
+    width: 13%;
+    margin: 27px 11px;
+    color: gray;
+  }
+  .foot{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+  .foot img{
+      width: 21px;
+  }
+  .foot button{
+      border: none;
+      outline: none;
+      color: #1f1fece0;
+      width: 190px;
+      font-size: 17px;
+  }
+  .foot:hover{
+      text-decoration: underline;
+      
+  }
